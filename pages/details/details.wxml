@@ -1,0 +1,134 @@
+
+
+<view class='title'>第六代处理器图形音箱全套电脑配置</view>
+
+<view class='price'>
+<span>参考价格：</span>
+<span class='pricecount'>¥1234元</span>
+
+</view>
+<view class='imgcont'>
+  <image class="img" src="../../images/win/1.jpg" mode="scaleToFill"></image>
+<image class="img" src="../../images/win/1.jpg" mode="scaleToFill"></image>
+<image class="img" src="../../images/win/1.jpg" mode="scaleToFill"></image>
+<image class="img" src="../../images/win/1.jpg" mode="scaleToFill"></image>
+</view>
+
+
+
+<!-- 功能列表 -->
+
+<view class="item-box">
+    <view class="item">
+      <view class="inner txt">
+        <image class="item-icon" mode="widthFix" src="/images/details/CPU.png"></image>
+        <i class="name">CPU</i>
+        <i>intel酷睿5000</i>
+        <span class="item-data">
+          <i class="rankpace">¥1999</i>
+        </span>
+      </view>
+    </view>
+
+    <view class="item">
+      <view class="inner txt">
+        <image class="item-icon" mode="widthFix" src="/images/details/zhuban.png"></image>
+        <i class="name">主板</i>
+        <i>intel酷睿5000</i>
+        <span class="item-data">
+          <i class="rankpace">¥1199</i>
+        </span>
+      </view>
+    </view>
+    
+    <view class="item">
+      <view class="inner txt">
+         <image class="item-icon" mode="widthFix" src="/images/details/neicun.png"></image>
+        <i class="name">内存</i>
+        <i>intel酷睿5000</i>
+        <span class="item-data">
+          <i class="rankpace">¥1999</i>
+        </span>
+      </view>
+    </view>
+    
+    <view class="item">
+      <view class="inner txt">
+        <image class="item-icon" mode="widthFix" src="/images/details/ssd.png"></image>
+        <i class="name">SSD</i>
+        <i>intel酷睿5000</i>
+        <span class="item-data">
+          <i class="rankpace">¥199</i>
+        </span>
+      </view>
+    </view>
+
+    <view class="item">
+      <view class="inner txt">
+       <image class="item-icon" mode="widthFix" src="/images/details/xianka.png"></image>
+        <i class="name">显卡</i>
+        <i>intel酷睿5000</i>
+        <span class="item-data">
+          <i class="rankpace">¥999</i>
+        </span>
+      </view>
+    </view>
+
+    <view class="item">
+      <view class="inner txt">
+        <image class="item-icon" mode="widthFix" src="/images/details/jixiang.png"></image>
+        <i class="name">机箱</i>
+        <i>intel酷睿5000</i>
+        <span class="item-data">
+          <i class="rankpace">¥99</i>
+        </span>
+      </view>
+    </view>
+
+    <view class="item">
+      <view class="inner txt">
+        <image class="item-icon" mode="widthFix" src="/images/details/dianyuan.png"></image>
+        <i class="name">电源</i>
+        <i>intel酷睿5000</i>
+        <span class="item-data">
+          <i class="rankpace">¥199</i>
+        </span>
+      </view>
+    </view>
+    
+      <view class="item">
+      <view class="inner txt">
+         <image class="item-icon" mode="widthFix" src="/images/details/xianshiqi.png"></image>
+        <i class="name">显示器</i>
+        <i>intel酷睿5000</i>
+        <span class="item-data">
+          <i class="rankpace">¥199</i>
+        </span>
+      </view>
+    </view>
+
+  <view class="item">
+      <view class="inner txt">
+         <image class="item-icon" mode="widthFix" src="/images/details/jianpan.png"></image>
+        <i class="name">键鼠套</i>
+        <i>intel酷睿5000</i>
+        <span class="item-data">
+          <i class="rankpace">¥199</i>
+        </span>
+      </view>
+    </view>
+
+
+    <view class="item">
+      <view class="inner txt">
+         <image class="item-icon" mode="widthFix" src="/images/details/jixiang.png"></image>
+        <i class="name">音箱</i>
+        <i>intel酷睿5000</i>
+        <span class="item-data">
+          <i class="rankpace">¥1999</i>
+        </span>
+      </view>
+    </view>
+
+    
+</view>

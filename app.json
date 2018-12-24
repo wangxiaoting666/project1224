@@ -1,0 +1,53 @@
+{
+  "pages":[
+   
+    "pages/index/index",
+    "pages/mydep/mydep",
+    
+    "pages/assemble/assemble",
+      "pages/indexasem/indexasem",
+    
+   
+    "pages/user/user",
+    "pages/buycar/buycar",
+      "pages/deploy/deploy",
+      "pages/details/details",
+     "pages/indexdetails/indexdetails",
+    "pages/search/search"
+   
+    
+   
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+    "tabBar": {
+      "color": "#a9b7b7",
+      "selectedColor": "#11cd6e",
+      "borderStyle": "white",
+      "list": [
+        {
+          "selectedIconPath": "images/1.png",
+          "iconPath": "images/2.png",
+          "pagePath": "pages/index/index",
+          "text": "首页"
+        },
+        {
+          "selectedIconPath": "images/3.png",
+          "iconPath": "images/4.png",
+          "pagePath": "pages/assemble/assemble",
+          "text": "攒机"
+        },
+        {
+          "selectedIconPath": "images/5.png",
+          "iconPath": "images/6.png",
+          "pagePath": "pages/user/user",
+          "text": "我的"
+        }
+      ]
+    }
+}

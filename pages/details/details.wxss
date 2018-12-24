@@ -1,0 +1,88 @@
+.container {
+padding:20rpx 0;
+
+} 
+/* pages/leftSwiperDel/index.wxss */
+view{
+    box-sizing: border-box;
+}
+.title{
+  margin: 15rpx;
+}
+.price{
+  margin-left: 15rpx;
+  margin-bottom: 30rpx;
+}
+
+.price span:first-child{
+   color: #464444;
+   font-size: 34rpx;
+}
+
+.price span:nth-child(2){
+   color: #fa0c04;
+   
+}
+.item-box{
+    width: 700rpx;
+    margin: 0 auto;
+    padding:40rpx 0;
+}
+
+.item{
+    position: relative;
+    border-top: 2rpx solid #eee;
+    height: 120rpx;
+    line-height: 120rpx;
+    overflow: hidden;
+     
+}
+
+.imgcont{
+
+}
+
+.imgcont .img{
+ width:174rpx;
+height:174rpx;
+vertical-align:middle;
+margin-right:16rpx;
+border-radius:50%;
+
+
+}
+
+
+.inner.txt{
+    background-color: #fff;
+    width: 100%;
+    z-index: 5;
+    padding:0 10rpx;
+    transition: left 0.2s ease-in-out;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    font-size:34rpx;
+    color: #464444;
+}
+
+.name{
+  margin-right:30rpx;
+}
+.item-icon{
+    width: 50rpx;
+    height: 50rpx;
+    vertical-align: middle;
+    margin-right: 16rpx;
+    
+    border-radius:50%;
+
+}
+
+.item-data{
+  float: right;
+  margin-right:5%;}
+
+.rankpace{
+  color: #fa0c04;
+}

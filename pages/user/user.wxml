@@ -1,0 +1,42 @@
+
+
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+ 
+</view>
+
+
+<view class='inform'>
+
+<view class='manger'>
+    <image class="item-icon" mode="widthFix" src="/images/gold.png"></image>
+		<span>我的攒机</span>
+	
+	</view>
+
+	<view class='name' bindtap='bindViewTap'>
+  <image class="item-icon" mode="widthFix" src="/images/love.png"></image>
+		<span>我的配置</span>
+	
+     
+	</view>
+	<view class='sex'>
+  <image class="item-icon" mode="widthFix" src="/images/my.png"></image>
+		<span>我的电脑</span>
+	
+    
+	</view>
+  <view class='phone'>
+  <image class="item-icon" mode="widthFix" src="/images/ban.png"></image>
+		<span>帮助和反馈</span>
+	
+    
+	</view>
+
+</view>

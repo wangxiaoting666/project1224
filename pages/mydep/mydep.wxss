@@ -1,0 +1,93 @@
+/* pages/leftSwiperDel/index.wxss */
+
+.item-box{
+    width: 700rpx;
+    margin: 0 auto;
+    padding:40rpx 0;
+    font-size: 30rpx;
+}
+.items{
+    width: 100%;
+}
+.item{
+    position: relative;
+    border-top: 2rpx solid rgb(248, 244, 244);
+    height: 106rpx;
+    line-height: 120rpx;
+    overflow: hidden;
+     
+}
+
+
+
+
+.inner.txt{
+    background-color: #fff;
+    width: 100%;
+    z-index: 5;
+   
+    transition: left 0.2s ease-in-out;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+
+.item-data{
+  width: 20%;
+  display: inline-block;
+  background: #eee;
+  text-align: center;
+ }
+ .item-datacenter{
+   display: inline-block;
+   width: 60%;
+    text-align: center;
+ }
+
+.rankpace{
+  color: #fa7e04;
+}
+
+
+/* tab */
+.swiper-tab {
+  width: 100%;
+  border-bottom: 2rpx solid #ccc;
+  text-align: center;
+  height: 88rpx;
+  line-height: 88rpx;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.swiper-tab-item {
+  width: 30%;
+  color: #434343;
+  /* border:1px solid #ccc; */
+}
+
+.active {
+  color: rgb(89, 246, 160);
+  border-bottom: 4rpx solid rgb(89, 246, 128);
+}
+
+swiper {
+  text-align: center;
+  height: 710rpx;
+}
+
+.all .list {
+  height: 30pt;
+}
+
+.clairy .list {
+  height: 30pt;
+}
+
+.game .list {
+  height: 30pt;
+}
+
+

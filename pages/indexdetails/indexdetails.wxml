@@ -1,0 +1,98 @@
+<swiper indicator-dots="{{indicatorDots}}"
+ autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+ <block wx:for="{{imgUrls}}" wx:key="unique">
+  <swiper-item>
+   <image src="{{item}}" class="slide-image"/>
+  </swiper-item>
+ </block>
+</swiper>
+
+
+<view class='container'>
+<view class='title'>
+<view>NADIV GEforce RTX 2080 TR</view>
+<view>
+<text class='exprice' >参考价：</text>
+<text class='contprice'>¥2345</text>
+</view>
+</view>
+
+
+
+<view class='price'>
+<view>电商报价</view>
+<view>
+<text>京东商城：</text>
+<text class='contprice'>¥2345</text>
+</view>
+</view>
+
+
+<view class='point'>
+<view class="pointile">重点参数 <i class='relase'>参数解读</i></view>
+<view>
+<ul>
+<li class="objectpoit">
+<view>
+芯片型号：
+</view>
+<view>
+NADIV GEforce RTX 
+</view>
+
+</li>
+
+<li class="objectpoit">
+<view>
+显存容量：
+</view>
+<view>
+11GB
+</view>
+
+</li>
+
+<li class="objectpoit">
+<view>
+输出接口：
+</view>
+<view>
+NADIV GEforce RTX 
+</view>
+
+</li>
+
+<li class="objectpoit">
+<view>
+显存类型：
+</view>
+<view>
+GDDAB
+</view>
+
+</li>
+
+<li class="objectpoit">
+<view>
+核心频率：
+</view>
+<view>
+1223-43HZ
+</view>
+
+</li>
+
+<li class="objectpoit">
+<view>
+散热描述：
+</view>
+<view>
+散热风扇+散热片
+</view>
+
+</li>
+
+</ul>
+</view>
+</view>
+</view>

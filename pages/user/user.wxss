@@ -1,0 +1,127 @@
+
+/* 登录授权 */
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo button{
+  background: rgb(5, 140, 250);
+  color: #ffffff;
+  width: 240rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.container {
+
+  padding: 40rpx 0;
+  
+} 
+
+
+/* 信息 */
+.inform {
+	padding: 0 6px;
+	font-size: 36rpx;
+}
+
+.phone {
+	height:95rpx;
+	line-height: 95rpx;
+	border-bottom: 1px solid #e6e5e2;
+}
+
+.phone span {
+	margin: 0 20rpx;
+}
+
+
+.name {
+	height: 95rpx;
+	line-height: 95rpx;
+	border-bottom: 1px solid #e6e5e2;
+}
+
+.name span {
+	margin: 0 20rpx;
+}
+
+
+
+.sex {
+	height:95rpx;
+	line-height: 95rpx;
+	border-bottom: 1px solid #e6e5e2;
+}
+
+.sex span {
+margin: 0 20rpx;
+}
+
+
+
+.age {
+	height:95rpx;
+	line-height: 95rpx;
+	border-bottom: 1px solid #e6e5e2;
+}
+
+.age span {
+margin: 0 20rpx;
+}
+
+
+
+.manger {
+	height:95rpx;
+	line-height: 95rpx;
+	border-bottom: 1px solid #e6e5e2;
+}
+
+.manger span {
+margin: 0 20rpx;
+}
+
+
+
+#userinfo1{
+  width: 185rpx;
+  height:185rpx;
+  /* margin:20rpx; */
+  border-radius:50%;
+  display: flex;
+  overflow:hidden;
+  text-align: center;
+}
+
+#userinfo2{
+ font-family: "微软雅黑"; 
+
+  margin-top:75rpx;
+ 
+}
+
+.item-icon{
+    width: 50rpx;
+    height: 50rpx;
+    vertical-align: middle;
+    margin-right: 16rpx;
+    
+    border-radius:50%;
+
+}
+

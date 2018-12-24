@@ -1,0 +1,57 @@
+.container{
+  background: #f0eeee;
+  padding:0 0;
+}
+.title{
+  width: 100%;
+  height: 156rpx;
+  padding-left:49rpx; 
+  padding-top:39rpx; 
+background: #ffffff;
+margin-bottom: 30rpx;
+
+}
+.exprice{
+color: #bbb8b8;
+}
+
+.contprice{
+color: #fa0404;
+margin-left: 343rpx;
+}
+
+.price{
+     width: 100%;
+   height: 156rpx;
+  padding-left:49rpx; 
+     padding-top:39rpx; 
+background: #ffffff;
+margin-bottom: 30rpx;
+}
+
+
+.point{
+   width: 100%;
+  height: 570rpx;
+   padding-left:49rpx; 
+   
+     padding-top:23rpx; 
+background: #ffffff;
+margin-bottom: 30rpx;
+}
+.pointile{
+  border-bottom: 1px solid #bbb8b8;
+    margin-right: 51rpx;
+    padding-bottom: 22rpx;
+}
+.objectpoit{
+ margin-top: 21rpx;
+  width: 50%;
+  height: 132rpx;
+  float: left;
+  font-size: 32rpx;
+}
+.relase{
+  color: #bbb8b8;
+  margin-left: 43rpx;
+}

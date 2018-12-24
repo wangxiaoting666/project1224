@@ -1,0 +1,66 @@
+
+
+
+
+<view class="container">
+  <view wx:for="{{cardTeams}}"  wx:key="{{cardTeam.viewid}}" wx:for-item="cardTeam" class="item" bindtap="bindViewTap">
+        <image class="img" src="{{cardTeam.imgsrc}}" mode="scaleToFill"></image>
+        <view class="number-wrapper">
+          <text class="name">{{cardTeam.name}}</text>
+          <view class="count-wrapper">
+        
+            <text class="count">{{cardTeam.count}}</text>
+        
+          </view>
+          <view class="price-wrapper">
+           
+            <text class="price">{{cardTeam.price}}</text>
+            <text class="people">3455人浏览</text>
+          </view>
+        </view>
+    
+      </view>
+</view>
+
+<!-- 右侧弹出界面 -->
+<view class="">
+  <view class="float {{isRuleTrue?'isRuleShow':'isRuleHide'}} ">
+    <view class="animation-element" animation="{{animation}}">
+      <view class='use'>
+        <view class='iconuse'>用途</view>
+
+<view>
+  <view class='appointent-date'>
+    <view  class="appointent-date-div {{state==index?'active-tag':''}}" bindtap="select_date"  wx:for="{{dates}}" data-key='{{index}}'>
+      <view class="flex-item" >
+        <rich-text class='data_name'>{{item.data_name}}</rich-text>   
+          
+      </view>
+    </view>  
+  </view>
+</view>
+
+      </view>
+
+      <!-- 价格 -->
+      <view class='use'>
+        <view class='iconprice'>价格</view>
+
+    <view>
+  <view class='appointent-date'>
+    <view  class="appointent-date-div {{price==index?'active-tag':''}}" bindtap="select_price"  wx:for="{{prices}}" data-key='{{index}}'>
+      <view class="flex-item" >
+        <rich-text class='data_name'>{{item.price}}</rich-text>   
+          
+      </view>
+    </view>  
+  </view>
+</view>
+      </view>
+      <view class='buttom'>
+      <view class="animation-reset" >重置</view>
+      <view class="animation-button" bindtap="success">完成</view>
+      </view>
+    </view>
+  </view>
+</view>
